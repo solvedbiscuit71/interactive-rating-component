@@ -1,6 +1,12 @@
-$white: hsl(0, 0%, 100%);
-$orange: hsl(25, 97%, 53%);
-$light-grey: hsl(217, 12%, 63%);
-$medium-grey: hsl(216, 12%, 54%);
-$dark-blue: hsl(213, 19%, 18%);
-$very-dark-blue: hsl(216, 12%, 8%);
+$body-bg: hsl(216, 12%, 8%);
+$card-bg: linear-gradient(to bottom, hsl(210, 19%, 18%) 0%, hsl(215, 27%, 12%) 100%);
+
+$rating-btn-bg: hsl(210, 17%, 18%);
+$rating-btn--active-bg: hsl(214, 12%, 54%);
+$submit-btn-bg: hsl(25, 97%, 53%);
+
+$header-color: hsl(0, 0%, 100%);
+$para-color: hsl(217, 12%, 63%);
+
+h1,h2 { color: $header-color; }
+p { color: $para-color; }

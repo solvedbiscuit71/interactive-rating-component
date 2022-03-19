@@ -1,0 +1,48 @@
+@use "../abstracts" as *;
+
+.rating-btn {
+  color: $para-color;
+  width: 45px;
+  height: 45px;
+
+  display: grid;
+  place-content: center;
+
+  background-color: $rating-btn-bg;
+  border-radius: 50%;
+  margin: 0 0 20px;
+}
+
+.rating-btn:hover {
+  cursor: pointer;
+  background-color: $submit-btn-bg;
+  color: $header-color;
+}
+
+.rating-btn--active {
+  background-color: $rating-btn--active-bg;
+  color: $header-color;
+}
+
+.submit-btn {
+  color: $header-color;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  width: 100%;
+  padding: 1em;
+
+  background-color: $submit-btn-bg;
+  border: none;
+  border-radius: 2em;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  color: $submit-btn-bg;
+  background-color: $header-color;
+}

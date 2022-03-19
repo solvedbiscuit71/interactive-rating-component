@@ -1,0 +1,19 @@
+@use "./abstracts";
+@use "./layouts/card-main";
+
+body {
+  display: grid;
+  place-content: center;
+
+  min-height: 100vh;
+  background-color: abstracts.$body-bg;
+}
+
+.card {
+  max-width: 327px;
+  min-height: 360px;
+
+  background-image: abstracts.$card-bg;
+  border-radius: 1em;
+  padding: 25px;
+}

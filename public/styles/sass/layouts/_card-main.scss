@@ -1,0 +1,28 @@
+@use "../abstracts" as *;
+@use "../components/button";
+
+.card-main {
+  .star {
+    display: inline-block;
+    padding: 1em;
+
+    background-color: hsl(211, 20%, 21%);
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-size: 1.85rem;
+    margin: 20px 0;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 20px 0 2em;
+  }
+
+  .rating-btn-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
