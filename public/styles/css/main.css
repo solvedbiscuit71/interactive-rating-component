@@ -86,13 +86,42 @@ body {
   margin: 20px 0;
 }
 .card-main p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 20px 0 2em;
 }
 .card-main .rating-btn-flex {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.card-thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+.card-thank-you .illustration {
+  display: inline-block;
+  margin: 1em 0 0;
+}
+.card-thank-you .rating {
+  color: #fb7413;
+  padding: 0.5em 1em;
+  background-color: #262e36;
+  border-radius: 2em;
+}
+.card-thank-you h2 {
+  font-size: 1.65rem;
+  text-align: center;
+  margin: 0.5em 0 0;
+}
+.card-thank-you p {
+  align-self: stretch;
+  font-size: 0.85rem;
+  transform: translate(0, -0.5em);
+  text-align: center;
+  margin: 0;
 }
 
 body {

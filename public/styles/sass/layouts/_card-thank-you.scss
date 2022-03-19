@@ -1,0 +1,35 @@
+@use "../abstracts" as *;
+
+.card-thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+
+  .illustration {
+    display: inline-block;
+    margin: 1em 0 0;
+  }
+
+  .rating {
+    color: $submit-btn-bg;
+    padding: .5em 1em;
+
+    background-color: $rating-btn-bg;
+    border-radius: 2em;
+  }
+
+  h2 {
+    font-size: 1.65rem;
+    text-align: center;
+    margin: .5em 0 0;
+  }
+
+  p {
+    align-self: stretch;
+    font-size: .85rem;
+    transform: translate(0,-.5em);
+    text-align: center;
+    margin: 0;
+  }
+}
