@@ -1,0 +1,43 @@
+@media only screen and (min-width: 720px) {
+  .rating-btn {
+    width: 52px;
+    height: 52px;
+    font-size: 1.1rem;
+  }
+
+  .card {
+    max-width: 412px;
+    min-height: 418px;
+    padding: 30px;
+  }
+  .card-main {
+    p {
+      font-size: 1rem;
+      line-height: 1.5em;
+    }
+
+    .rating-btn-flex {
+      margin-bottom: 1em;
+    }
+  }
+
+  .card-thank-you {
+    .illustration {
+      margin-bottom: .5em;
+    }
+
+    .rating {
+      font-size: 1.05rem;
+      padding: .5em 1.5em;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.5em;
+    }
+  }
+}

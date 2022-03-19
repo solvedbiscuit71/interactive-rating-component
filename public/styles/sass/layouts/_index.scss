@@ -1,2 +1,20 @@
 @forward "./card-main";
 @forward "./card-thank-you";
+
+@use "../abstracts/color";
+body {
+  display: grid;
+  place-content: center;
+
+  min-height: 100vh;
+  background-color: color.$body-bg;
+}
+
+.card {
+  max-width: 327px;
+  min-height: 360px;
+
+  background-image: color.$card-bg;
+  border-radius: 1em;
+  padding: 25px;
+}
