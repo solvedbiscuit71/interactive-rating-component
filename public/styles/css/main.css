@@ -134,7 +134,7 @@ body {
 .card {
   max-width: 327px;
   min-height: 360px;
-  background-image: linear-gradient(to bottom, #252e37 0%, #161d27 100%);
+  background-image: radial-gradient(circle at top, #252e37 0%, #1b222c 50%, #161d27 100%);
   border-radius: 1em;
   padding: 25px;
 }
