@@ -1,0 +1,14 @@
+{
+  "name": "interactive-rating-component",
+  "version": "0.1.0",
+  "description": "This is a challenge from frontendmentor.io",
+  "main": "index.html",
+  "scripts": {
+    "watch:scss": "sass --no-source-map --watch sass:css"
+  },
+  "author": "Praveen Perumal (@solvedbiscuit71)",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
