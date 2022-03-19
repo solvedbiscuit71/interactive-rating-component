@@ -1,0 +1,7 @@
+# ---: folder :---
+node_modules/
+design/
+
+# ---: files :---
+.DS_Store
+package-lock.json
