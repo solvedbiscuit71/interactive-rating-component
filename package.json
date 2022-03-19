@@ -4,7 +4,7 @@
   "description": "This is a challenge from frontendmentor.io",
   "main": "index.html",
   "scripts": {
-    "watch:scss": "sass --no-source-map --watch sass:css"
+    "watch:sass": "sass --no-source-map --watch public/styles/sass:public/styles/css"
   },
   "author": "Praveen Perumal (@solvedbiscuit71)",
   "license": "ISC",
